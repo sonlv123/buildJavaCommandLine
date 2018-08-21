@@ -1,0 +1,7 @@
+
+classpath:NewpostJava/NewpostBatch/:NewpostJava/NewpostBatch/target/classes:NewpostJava/NewpostBatch/lib/itextpdf-5.5.9.jar:NewpostJava/NewpostBatch/lib/poi-3.9.jar:
+-----------JAVAC OK------------------------------------------------------
+javac -cp NewpostJava/NewpostBatch/lib/itextpdf-5.5.9.jar:NewpostJava/NewpostBatch/lib/poi-3.9.jar: NewpostJava/NewpostBatch/VibloPdf.java -d NewpostJava/NewpostBatch
+-----------JAVA OK-----------------------------------------------------------
+java -classpath NewpostJava/NewpostBatch/:NewpostJava/NewpostBatch/lib/itextpdf-5.5.9.jar:NewpostJava/NewpostBatch/lib/poi-3.9.jar:. printPDF.VibloPdf
+Rut gon ---> java -cp $classpath printPDF.VibloPdf
