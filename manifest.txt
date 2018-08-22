@@ -1,0 +1,2 @@
+Main-Class: printPDF.VibloPdf
+Class-Path: NewpostJava/NewpostBatch/ NewpostJava/NewpostBatch/target/classes NewpostJava/NewpostBatch/lib/itextpdf-5.5.9.jar NewpostJava/NewpostBatch/lib/poi-3.9.jar

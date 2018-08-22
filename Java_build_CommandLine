@@ -5,3 +5,10 @@ javac -cp NewpostJava/NewpostBatch/lib/itextpdf-5.5.9.jar:NewpostJava/NewpostBat
 -----------JAVA OK-----------------------------------------------------------
 java -classpath NewpostJava/NewpostBatch/:NewpostJava/NewpostBatch/lib/itextpdf-5.5.9.jar:NewpostJava/NewpostBatch/lib/poi-3.9.jar:. printPDF.VibloPdf
 Rut gon ---> java -cp $classpath printPDF.VibloPdf
+
+-----------JAR---------
+jar -cfvm VibloPdf.jar manifest.txt /home/mrson/NewpostJava/NewpostBatch/target/classes/printPDF/VibloPdf.class
+
+java -jar VibloPdf.jar
+
+Phải đảm bảo manifest.txt phải chưa class-path
